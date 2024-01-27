@@ -1,0 +1,44 @@
+{
+    "Addon": {
+        "EnchantSetting": {
+            "amplifier": 1
+        },
+        "PackResourceSortData": {
+
+        },
+        "PlayerEffectSetting": {
+            "amplifier": 1,
+            "duration": 10
+        },
+        "PresetInstanceTreeData": [
+
+        ]
+    },
+    "UI": {
+        "expandData": {
+            "prefab": {
+                "tpaUI.GuildCreatePanel": [
+                    "/netease_prefab_screen",
+                    "/netease_prefab_screen/GuildCreatePanel",
+                    "/netease_prefab_screen/GuildCreatePanel/comboBoxPanel",
+                    "/netease_prefab_screen/GuildCreatePanel/comboBoxPanel/comboBoxTitlePanel",
+                    "/netease_prefab_screen/GuildCreatePanel/comboBoxPanel/comboBoxContent"
+                ],
+                "tpaUI.tpaUISelections": [
+                    "/netease_prefab_screen",
+                    "/netease_prefab_screen/tpaUISelections",
+                    "/netease_prefab_screen/tpaUISelections/selections"
+                ]
+            },
+            "screen": {
+                "E:\\MCStudioDownload\\work\\1244894362@qq.com\\Cpp\\AddOn\\tpaUI\\resource_pack_cqeN3ful\\ui\\tpaUI.json": [
+                    "/tpaUI",
+                    "/tpaUI/panel",
+                    "/tpaUI/panel/image",
+                    "/tpaUI/panel/image/selections",
+                    "/tpaUI/panel/image/selections/selections"
+                ]
+            }
+        }
+    }
+}

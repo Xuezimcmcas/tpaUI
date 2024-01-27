@@ -1,5 +1,6 @@
 {
-   "main" : {
+   "namespace" : "tpaUI",
+   "tpaUI" : {
       "controls" : [
          {
             "panel" : {
@@ -206,6 +207,13 @@
                                  "text_alignment" : "center",
                                  "type" : "label"
                               }
+                           },
+                           {
+                              "selections@tpaUI.tpaUISelections" : {
+                                 "max_size" : [ "default", 0.0 ],
+                                 "offset" : [ 3.50, -5.0 ],
+                                 "size" : [ 317.0, 20.0 ]
+                              }
                            }
                         ],
                         "layer" : 1,
@@ -224,5 +232,44 @@
       ],
       "type" : "screen"
    },
-   "namespace" : "tpaUI"
+   "tpaUISelections" : {
+      "controls" : [
+         {
+            "selections@combo_box.comboBoxPanel" : {
+               "$content_label" : "combo_box.label",
+               "$content_size" : [ "100.0%+0.0px", 100 ],
+               "$default_item_texture" : "textures/ui/button_borderless_light",
+               "$default_title_texture" : "textures/ui/button_borderless_light",
+               "$hover_item_texture" : "textures/ui/button_borderless_lighthover",
+               "$hover_title_texture" : "textures/ui/button_borderless_lighthover",
+               "$item_nineslice_size|default" : [ 0.0, 0.0, 0.0, 0.0 ],
+               "$item_size" : [ "100.0%+0.0px", "10.0%x+0.0px" ],
+               "$pressed_item_texture" : "textures/ui/button_borderless_lightpressed",
+               "$pressed_title_texture" : "textures/ui/button_borderless_lightpressed",
+               "$scroll_background_texture" : "textures/ui/ScrollRail",
+               "$title_down_image" : "combo_box.dropdownImage",
+               "$title_label" : "combo_box.titleLabel",
+               "$title_nineslice_size|default" : [ 0.0, 0.0, 0.0, 0.0 ],
+               "$title_up_image" : "combo_box.dropupImage",
+               "alpha" : 1.0,
+               "anchor_from" : "center",
+               "anchor_to" : "center",
+               "clip_offset" : [ 0, 0 ],
+               "clips_children" : false,
+               "enabled" : true,
+               "layer" : 0,
+               "max_size" : [ 0, 0 ],
+               "min_size" : [ 0, 0 ],
+               "offset" : [ 0.0, 0.0 ],
+               "priority" : 0,
+               "propagate_alpha" : false,
+               "size" : [ "default", 20.0 ],
+               "type" : "panel",
+               "visible" : true
+            }
+         }
+      ],
+      "size" : [ "default", 20.0 ],
+      "type" : "panel"
+   }
 }
